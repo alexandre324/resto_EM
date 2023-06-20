@@ -32,17 +32,16 @@ header {
     background-color: var(--couleur-bg-header);
 }
 
+.header-wrapper button{
+    display: none;
+}
+
 .header-wrapper .icon{
     width: 40%;
     height: auto;  
-    margin-left: -45px;
+    margin-left: -5rem;
 }
 
-.header-icon{
-    width: 55px;
-    height: auto; 
-    margin-left: 45px;
-}
 
 /* Header : Image et onglets */
 
@@ -122,6 +121,44 @@ a{
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     font-weight: bold;
+}
+
+/* Phone */
+@media (max-width: 767px) {
+
+    /* Header : Bannière */
+    .header-wrapper{
+        min-height: 7vh;
+        justify-content: space-between;
+        padding-inline: 90px;
+        align-items: center;
+    }
+
+    .header-wrapper button{
+        display: flex;
+        flex: 1;
+        border: none;
+        background-color: transparent;
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+        max-width: 20%;
+    }
+
+    .header-wrapper button img{
+        width: 5vw; 
+        margin-top: 7px;
+        height: auto;
+        display: block;
+    }
+
+    .header-wrapper .icon{
+        width: 60%;
+        height: auto;  
+        object-fit: contain;
+        align-self: left;
+        flex: 1;
+    }
 }
 
 /* body : images */
