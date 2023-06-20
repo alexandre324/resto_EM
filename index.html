@@ -3,25 +3,171 @@
 
 <head>
     <title>Resto</title>
-    <link rel="stylesheet" href="style/styles.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="icon" type="image/png" href="image/icon.png">
 </head>
 
 <body>
-    <h1>Bienvenue sur ma page HTML!</h1>
-    <p>Ceci est un paragraphe.</p>
+    <header>
+        <div class="header-wrapper">
+            <img class="icon" src="image/header.png">
+        </div>
+        <div class=" header-main-container">
+            <div class="header-main-img-container">
+                <img class="header-main-img"
+                    src="https://mybeautifuldinner.com/wp-content/uploads/2017/12/Salle-restaurant-le-mechoui-du-prince-le-maroc-chaleureux.jpg"
+                    alt="Adrien">
 
-    <h2>Un autre titre</h2>
-    <ul>
-        <li>Élément 1</li>
-        <li>Élément 2</li>
-        <li>Élément 3</li>
+            </div>
+            <div class="header-main-items-container">
+                <div class="header-items-container">
+                    <a class="header-item" href="#couscous">
+                        <p>
+                            NOS COUSCOUS
+                        </p>
+                    </a>
+                    <a class="header-item" href="#menu">
+                        <p>
+                            MENU
+                        </p>
+                    </a>
+                    <div class="header-item">
+                        <p>
+                            RESERVER
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+
+    <h1 class="titre-1" id="couscous">NOS COUSCOUS</h1>
+    <ul class="body-image-container">
+        <li>
+            <img
+                src="https://media-cdn.tripadvisor.com/media/photo-m/1280/1a/ac/f1/f4/carre-de-cordeiro-couscous.jpg"></img>
+        </li>
+        <li class="black-white">
+            <img src="https://www.ideemiam.com/upload/images/article/400x400/img_2635.jpg"></img>
+        </li>
+        <li>
+            <img
+                src="https://www.tipiak.fr/sites/default/files/styles/image_detail/public/recettes/images/Couscous-marocain-TIPIAK.jpg?itok=Ez-4eRy5"></img>
+        </li>
+        <li class="black-white">
+            <img src="https://cdn-www.konbini.com/files/2020/06/justine-adrien.jpg"></img>
+        </li>
+        <li class="black-white">
+            <img
+                src="https://cdn.shopify.com/s/files/1/0089/1397/7404/files/ADRIEN_CACHOT_WEB_1600x.jpg?v=1645004591"></img>
+        </li>
+        <li>
+            <img src="https://lemagret.fr/wp-content/uploads/2021/01/1080.jpg"></img>
+        </li>
+        <li>
+            <img class="black-white"
+                src="https://foodandsens.com/wp-content/uploads/2022/05/Screenshot_20220510-232051_Instagram-696x800.jpg"></img>
+        </li>
+        <li>
+            <img
+                src="https://i0.wp.com/lesgourmandsdisent.org/wp-content/uploads/2017/04/img_0629.jpg?fit=1000%2C750&ssl=1"></img>
+        </li>
+        <li>
+            <img src="https://media-cdn.tripadvisor.com/media/photo-s/07/ba/a7/0a/couscous-deli.jpg"></img>
+        </li>
+        <li>
+            <img class="black-white"
+                src="https://versus.uk.com/wp-content/uploads/2019/01/50656797_600209540444130_8573459807149596996_n-e1548678377422.jpg"></img>
+        </li>
+        <li>
+            <img src="https://media-cdn.tripadvisor.com/media/photo-s/1b/b4/3b/f7/le-meilleur-du-couscous.jpg"></img>
+        </li>
+        <li>
+            <img class="black-white"
+                src="https://media.vanityfair.fr/photos/60d37e0cc028621524846b04/master/w_1600%2Cc_limit/adrien_cachot_6290.png"></img>
+        </li>
     </ul>
 
-    <p>Voici une image :</p>
-    <img src="https://cdn.shopify.com/s/files/1/0089/1397/7404/files/ADRIEN_CACHOT_WEB_1600x.jpg?v=1645004591"
-        alt="Ma image">
+    <h1 class="titre-2" id="menu">NOS MENUS</h1>
+    <div class="menu-container">
+        <div class="row">
+            <div class="formule">
+                <h3>DEJEUNER*</h3>
+                <p>(lundi, jeudi, samedi)</p>
+            </div>
+            <div class="formule">
+                <h3>DINER*</h3>
+                <p>(du lundi au vendredi)</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="menu-title">
+                <h3>MENU VEGAN</h3>
+            </div>
+            <div class="menu-description">
+                <div class="menu-description-item">
+                    <p>Entrées, Plat, Dessert</p>
+                </div>
+                <div class="menu-description-item">
+                    <p>8 verres</p>
+                </div>
+            </div>
+            <div class="menu-price">
+                <p>7€</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="menu-title">
+                <h3>MENU INTOLERANT LACTOSE</h3>
+            </div>
+            <div class="menu-description">
+                <div class="menu-description-item">
+                    <p>Entrées, Plat, Dessert</p>
+                </div>
+                <div class="menu-description-item">
+                    <p>8 verres</p>
+                </div>
+            </div>
+            <div class="menu-price">
+                <p>10€</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="menu-title">
+                <h3>MENU VEGETALIEN</h3>
+            </div>
+            <div class="menu-description">
+                <div class="menu-description-item">
+                    <p>Entrées, Plat, Dessert</p>
+                </div>
+                <div class="menu-description-item">
+                    <p>8 verres</p>
+                </div>
+            </div>
+            <div class="menu-price">
+                <p>9€</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="menu-title">
+                <h3>MENU SANS GLUTEN</h3>
+            </div>
+            <div class="menu-description">
+                <div class="menu-description-item">
+                    <p>Entrées, Plat, Dessert</p>
+                </div>
+                <div class="menu-description-item">
+                    <p>8 verres</p>
+                </div>
+            </div>
 
-    <p>Voici un lien vers <a href="https://www.example.com">example.com</a>.</p>
+            <div class="menu-price">
+                <p>12€</p>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
