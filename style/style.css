@@ -152,6 +152,7 @@ a{
     text-transform: capitalize;
     letter-spacing: -2px;
     text-align: right;
+    margin-bottom: -5rem;
 }
 
 .body-image-container {
@@ -211,6 +212,7 @@ a{
     text-transform: capitalize;
     letter-spacing: -2px;
     text-align: right;
+    margin-bottom: -3rem;
 }
 
 .menu-container{
