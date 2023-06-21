@@ -55,6 +55,7 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    height: 90vh;
 }
 
 .header-main-container div{
@@ -283,7 +284,7 @@ a{
 
 
 /* Phone */
-@media (max-width: 767px) {
+@media screen and (max-width: 600px) {
 
     /* Header : Bannière */
     .header-wrapper{
@@ -291,7 +292,7 @@ a{
         justify-content: space-between;
         padding: 0px;
         align-items: center;
-        min-width: 100%;
+        min-width: 100vw;
     }
 
     .header-ban-menu button{
@@ -309,6 +310,7 @@ a{
         height: auto; 
         height: auto;
         display: block;
+        margin-top: 0.5rem;
     }
 
     .header-ban-menu{
