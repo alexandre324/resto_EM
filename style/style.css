@@ -2,6 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+* {
+    box-sizing: border-box;
+}
+
 :root {
     --couleur-bg-header:rgb(255, 248, 248);
     --couleur-text-header: #fe4e02;
@@ -336,5 +340,6 @@ a{
 
     .header-main-items-container{
         visibility: hidden;
+        display: none;
     }
 }
