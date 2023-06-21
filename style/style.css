@@ -10,6 +10,7 @@
     --couleur-border-menu: #fe4e02;
 }
 
+
 /* Header */
 header {
     position: absolute;
@@ -19,7 +20,6 @@ header {
     width: 100vw;
     height: 100vh;
 
-    margin: 0;
     justify-content: center;
 }
 
@@ -39,7 +39,6 @@ header {
 .header-wrapper .icon{
     width: 40%;
     height: auto;  
-    margin-left: -5rem;
 }
 
 
@@ -123,43 +122,6 @@ a{
     font-weight: bold;
 }
 
-/* Phone */
-@media (max-width: 767px) {
-
-    /* Header : Bannière */
-    .header-wrapper{
-        min-height: 7vh;
-        justify-content: space-between;
-        padding-inline: 90px;
-        align-items: center;
-    }
-
-    .header-wrapper button{
-        display: flex;
-        flex: 1;
-        border: none;
-        background-color: transparent;
-        padding: 0;
-        justify-content: center;
-        align-items: center;
-        max-width: 20%;
-    }
-
-    .header-wrapper button img{
-        width: 5vw; 
-        margin-top: 7px;
-        height: auto;
-        display: block;
-    }
-
-    .header-wrapper .icon{
-        width: 60%;
-        height: auto;  
-        object-fit: contain;
-        align-self: left;
-        flex: 1;
-    }
-}
 
 /* body : images */
 
@@ -309,4 +271,70 @@ a{
     font-size: 30px;
     color: var(--couleur-text-body);
     font-weight: bold;
+}
+
+
+
+/* Phone */
+@media (max-width: 767px) {
+
+    /* Header : Bannière */
+    .header-wrapper{
+        height: 10vh;
+        justify-content: space-between;
+        padding: 0px;
+        align-items: center;
+        max-width: 100vw;
+    }
+
+    .header-ban-menu button{
+        display: flex;
+        border: none;
+        justify-content: right;
+        background-color: transparent;
+        padding: 0;
+        padding-inline-end: 10px;
+    }
+
+    .header-wrapper button img{
+        max-width: 75%; 
+        height: auto; 
+        height: auto;
+        display: block;
+    }
+
+    .header-ban-menu{
+        max-width: 15vw;
+        flex: 1;
+        justify-content: center;
+        align-items: center;
+    } 
+
+    .header-ban-icon{
+        max-width: 85vw;
+        flex: 1;
+        justify-content: center;
+        align-items: center;
+    } 
+
+    .header-wrapper .icon{
+        height: auto;  
+        object-fit: contain;
+        align-self: left;
+        width: 65vw;
+        margin-left: 10px;
+    }
+
+    .header-main-container{
+        min-width: 100vw;
+        display: block;
+    }
+
+    .header-main-img-container{
+        min-width: 100%;
+    }
+
+    .header-main-items-container{
+        visibility: hidden;
+    }
 }
