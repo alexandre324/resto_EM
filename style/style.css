@@ -381,4 +381,10 @@ a{
         width: 100%;
         justify-content: space-around;
     }
+
+    .reverse{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
 }
