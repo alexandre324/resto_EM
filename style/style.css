@@ -11,15 +11,19 @@
     --couleur-border-menu: #fe4e02;
 }
 
+body{
+    margin: 0;
+}
 
 /* Header */
 header {
-    position: absolute;
+    position: relative;
     top: 0vh;
     left: 0vw;
     
     width: 100%;
-    height: 100%;
+    max-height: 100vh;
+    overflow: hidden;
 
     justify-content: center;
 }
@@ -134,8 +138,7 @@ a{
 /* body : images */
 
 .titre-1{
-    position: absolute;
-    top: 94vh;
+    position: relative;
     right: 2vw;
     font-size: 150px;
     z-index: 10;
